@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/main.css">
+    <title>Gentse Feesten | Home</title>
+</head>
+<body>
+    <header>
+        <div class="header__bg">
+            <div class="container">
+                <div class="header__nav">
+                    <div class="logo">
+                        <a href="index.html"><img src="static/media/logoGF.svg" alt="logo"></a>
+                    </div>
+                    <div class="navigation">
+                        <div class="navigation__wrapper">
+                            <div class="search__wrapper">
+                                <label for="search"></label>
+                                <input type="text" id="search" name="search" max-length="128" placeholder="Doorzoek het programma...">
+                                <button type="submit"><svg width="19" height="18" viewBox="0 0 24 23" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.21101 17.3622C4.13262 17.3622 0 13.4682 0 8.68108C0 3.89391 4.13262 0 9.21101 0C14.2894 0 18.422 3.89486 18.422 8.68108C18.422 13.4673 14.2904 17.3622 9.21101 17.3622ZM9.21101 2.96457C5.86604 2.96457 3.14554 5.5295 3.14554 8.68108C3.14554 11.8327 5.86705 14.3976 9.21101 14.3976C12.555 14.3976 15.2775 11.8327 15.2775 8.68108C15.2775 5.5295 12.556 2.96457 9.21101 2.96457ZM18.5409 14.7763C17.718 15.8927 16.6755 16.8533 15.4729 17.6061L20.9642 22.7825L24 19.9223L18.5409 14.7763Z" fill="white"/>
+                                    </svg>
+                                </button>
+                                <div class="language">
+                                    <span class="language">NL</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html">Programma</a></li>
+                                <li><a href="index.html">Nieuws</a></li>
+                                <li><a href="index.html">Info</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <button class="burger" >
+                        <svg width="29" height="20" viewBox="0 0 29 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29 4H0V0H29V4ZM29 8H0V12H29V8ZM29 16H0V20H29V16Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="inside__wrapper">
+                    <div class="inside">
+                        <svg class="rotate" width="113" height="26" viewBox="0 0 62 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.785869 13.9652L1.61924 10.041H0L0 8.6687H1.90633L2.61578 5.32435H0L0 3.95205H2.90286L3.73623 0L5.17372 0L4.34035 3.95205H7.35784L8.19121 0L9.638 0L8.80462 3.95205H10.4621V5.32435H8.51754L7.79879 8.6687H10.4621V10.041H7.51068L6.6773 13.9652H5.24085L6.06493 10.041H3.0557L2.22233 13.9652H0.785869ZM3.34382 8.6687H6.35201L7.07076 5.32435H4.05223L3.34382 8.6687Z" fill="white"/>
+                            <path d="M11.7117 7.1316C11.7117 3.07528 14.8314 0.26416 18.5986 0.26416C22.0911 0.26416 24.0728 2.22629 24.7792 4.22614L22.7779 4.99967C22.1108 3.26395 20.8746 2.01875 18.5594 2.01875C16.146 2.01875 13.8111 3.75448 13.8111 7.11273C13.8111 10.3955 15.734 12.2822 18.4809 12.2822C21.1297 12.2822 22.6013 10.5464 22.719 8.96166H17.9707V7.22593H24.74V13.7349H22.8367C22.8367 12.7161 23.2291 11.6596 23.6019 10.9238H22.6798C22.307 11.9048 21.1297 13.999 17.9119 13.999C14.282 14 11.7117 11.3577 11.7117 7.1316Z" fill="white"/>
+                            <path d="M27.9775 0.52832H37.9646V2.26405H29.9396V6.45243H36.2576V8.16929H29.9396V13.7349H27.9775V0.52832Z" fill="white"/>
+                            <path d="M39.6126 11.6596C43.4387 9.39559 46.5977 7.20706 46.5977 4.56574C46.5977 2.84888 45.4793 1.96215 44.1058 1.96215C42.6146 1.96215 41.4766 2.99981 41.4766 4.86761L39.4949 4.60347C39.5145 2.09422 41.2608 0.26416 44.1254 0.26416C46.9704 0.26416 48.6578 1.99989 48.6578 4.35821C48.6578 5.7732 48.1477 6.98066 47.2255 8.03719C46.0483 9.33899 43.9488 10.6596 41.2215 12.1312L41.712 12.8482C42.4184 12.3765 43.1836 11.9992 44.6356 11.9992H48.8148V13.7349H39.6126V11.6596Z" fill="white"/>
+                            <path d="M51.0125 7.09386C51.0125 2.56588 53.5043 0.26416 56.5259 0.26416C59.5279 0.26416 62.0002 2.56588 62.0002 7.09386C62.0002 11.603 59.783 13.999 56.5259 13.999C53.2492 14 51.0125 11.603 51.0125 7.09386ZM59.94 7.09386C59.94 3.92428 58.5861 1.94329 56.5259 1.94329C54.4265 1.94329 53.0726 3.92428 53.0726 7.09386C53.0726 10.4899 54.3872 12.3199 56.5259 12.3199C58.6254 12.3209 59.94 10.5087 59.94 7.09386Z" fill="white"/>
+                        </svg>
+                        <svg class="inside__logo" width="420" height="104" viewBox="0 0 257 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 33.9384C0 21.8714 8.30514 13.9524 19.8568 13.9524C31.4085 13.9524 39.7137 21.8714 39.7137 33.9384C39.7137 46.2317 31.4085 53.9999 19.8568 53.9999C8.30514 53.9999 0 45.5529 0 33.9384ZM28.5395 34.0893C28.5395 26.3211 24.9909 22.3993 19.8568 22.3993C14.7227 22.3993 11.1742 26.3211 11.1742 34.0893C11.1742 41.8574 14.7227 45.4775 19.8568 45.4775C24.9909 45.4775 28.5395 41.8574 28.5395 34.0893Z" fill="white"/>
+                            <path d="M47.5659 15.0837H57.2301C57.1546 17.5725 55.5691 20.8155 53.5305 23.7569H58.2116C59.9481 18.4021 63.7232 13.9524 69.7633 13.9524C78.0684 13.9524 82.5985 19.458 82.5985 27.8295V52.7932H71.8773V29.8658C71.8773 24.8881 69.5368 22.7764 65.8372 22.7764C58.3626 22.7764 58.2871 30.9217 58.2871 34.9189V52.7932H47.5659V15.0837Z" fill="white"/>
+                            <path d="M96.4906 42.9133V23.229H88.563V15.0837H96.4906V3.24292H107.212V15.0837H117.027V23.229H107.212V40.9524C107.212 43.215 108.193 44.2709 110.534 44.2709H118.688V52.7932H106.079C99.9637 52.7932 96.4906 48.796 96.4906 42.9133Z" fill="white"/>
+                            <path d="M122.689 33.9385C122.689 22.0223 129.032 13.9525 138.243 13.9525C146.019 13.9525 149.115 19.0056 150.776 22.852H155.306C153.418 19.9106 151.304 16.3659 151.304 7.39106V0H162.026V52.7933H152.286C152.286 50.1536 154.022 47.2877 155.532 45.1006H151.002C149.115 48.8715 146.246 54 138.243 54C129.032 54 122.689 45.8547 122.689 33.9385ZM151.751 33.9385C151.751 25.9441 148.127 22.0223 142.766 22.0223C137.783 22.0223 133.933 25.1145 133.933 33.9385C133.933 42.7626 137.783 45.8547 142.766 45.8547C148.052 45.8547 151.751 41.933 151.751 33.9385Z" fill="white"/>
+                            <path d="M169.954 33.863C169.954 22.0222 178.108 13.9524 189.055 13.9524C201.74 13.9524 208.384 23.9077 207.327 36.5027H180.675C180.977 43.1395 184.525 45.8546 189.131 45.8546C193.963 45.8546 196.304 42.8379 197.889 39.2932L207.478 42.9887C205.364 47.8155 200.607 53.9999 189.131 53.9999C177.504 53.9999 169.954 46.2317 169.954 33.863ZM196.75 28.9608C196.297 24.2848 193.579 21.6451 189.049 21.6451C184.746 21.6451 181.801 24.2094 181.046 28.9608H196.75Z" fill="white"/>
+                            <path d="M231.707 37.1816L226.195 42.4609V52.7933H215.474V0H226.195V16.6676C226.195 24.2095 224.157 27 220.759 29.7905L223.628 32.8827L241.371 15.0838H254.508L239.106 30.0168L257 52.7933H243.485L231.707 37.1816Z" fill="white"/>
+                        </svg>
+                        <ul class="inside__days days__inside-js">
+                            <li class="inside__day"><a><span class="inside__day-of__week">Vr</span><span class="inside__day-of__mounth">17 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Za</span><span class="inside__day-of__mounth">18 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Zo</span><span class="inside__day-of__mounth">19 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Ma</span><span class="inside__day-of__mounth">20 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Di</span><span class="inside__day-of__mounth">21 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Wo</span><span class="inside__day-of__mounth">22 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Do</span><span class="inside__day-of__mounth">23 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Di</span><span class="inside__day-of__mounth">24 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Wo</span><span class="inside__day-of__mounth">25 Juli</span></a></li>
+                            <li class="inside__day"><a><span class="inside__day-of__week">Do</span><span class="inside__day-of__mounth">26 Juli</span></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__discover">
+                <svg width="113" height="26" viewBox="0 0 62 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.785869 13.9652L1.61924 10.041H0L0 8.6687H1.90633L2.61578 5.32435H0L0 3.95205H2.90286L3.73623 0L5.17372 0L4.34035 3.95205H7.35784L8.19121 0L9.638 0L8.80462 3.95205H10.4621V5.32435H8.51754L7.79879 8.6687H10.4621V10.041H7.51068L6.6773 13.9652H5.24085L6.06493 10.041H3.0557L2.22233 13.9652H0.785869ZM3.34382 8.6687H6.35201L7.07076 5.32435H4.05223L3.34382 8.6687Z" fill="black"/>
+                    <path d="M11.7117 7.1316C11.7117 3.07528 14.8314 0.26416 18.5986 0.26416C22.0911 0.26416 24.0728 2.22629 24.7792 4.22614L22.7779 4.99967C22.1108 3.26395 20.8746 2.01875 18.5594 2.01875C16.146 2.01875 13.8111 3.75448 13.8111 7.11273C13.8111 10.3955 15.734 12.2822 18.4809 12.2822C21.1297 12.2822 22.6013 10.5464 22.719 8.96166H17.9707V7.22593H24.74V13.7349H22.8367C22.8367 12.7161 23.2291 11.6596 23.6019 10.9238H22.6798C22.307 11.9048 21.1297 13.999 17.9119 13.999C14.282 14 11.7117 11.3577 11.7117 7.1316Z" fill="black"/>
+                    <path d="M27.9775 0.52832H37.9646V2.26405H29.9396V6.45243H36.2576V8.16929H29.9396V13.7349H27.9775V0.52832Z" fill="black"/>
+                    <path d="M39.6126 11.6596C43.4387 9.39559 46.5977 7.20706 46.5977 4.56574C46.5977 2.84888 45.4793 1.96215 44.1058 1.96215C42.6146 1.96215 41.4766 2.99981 41.4766 4.86761L39.4949 4.60347C39.5145 2.09422 41.2608 0.26416 44.1254 0.26416C46.9704 0.26416 48.6578 1.99989 48.6578 4.35821C48.6578 5.7732 48.1477 6.98066 47.2255 8.03719C46.0483 9.33899 43.9488 10.6596 41.2215 12.1312L41.712 12.8482C42.4184 12.3765 43.1836 11.9992 44.6356 11.9992H48.8148V13.7349H39.6126V11.6596Z" fill="black"/>
+                    <path d="M51.0125 7.09386C51.0125 2.56588 53.5043 0.26416 56.5259 0.26416C59.5279 0.26416 62.0002 2.56588 62.0002 7.09386C62.0002 11.603 59.783 13.999 56.5259 13.999C53.2492 14 51.0125 11.603 51.0125 7.09386ZM59.94 7.09386C59.94 3.92428 58.5861 1.94329 56.5259 1.94329C54.4265 1.94329 53.0726 3.92428 53.0726 7.09386C53.0726 10.4899 54.3872 12.3199 56.5259 12.3199C58.6254 12.3209 59.94 10.5087 59.94 7.09386Z" fill="black"/>
+                </svg>
+                <svg width="257" height="54" viewBox="0 0 257 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 33.9384C0 21.8714 8.30514 13.9524 19.8568 13.9524C31.4085 13.9524 39.7137 21.8714 39.7137 33.9384C39.7137 46.2317 31.4085 53.9999 19.8568 53.9999C8.30514 53.9999 0 45.5529 0 33.9384ZM28.5395 34.0893C28.5395 26.3211 24.9909 22.3993 19.8568 22.3993C14.7227 22.3993 11.1742 26.3211 11.1742 34.0893C11.1742 41.8574 14.7227 45.4775 19.8568 45.4775C24.9909 45.4775 28.5395 41.8574 28.5395 34.0893Z" fill="black"/>
+                    <path d="M47.5659 15.0837H57.2301C57.1546 17.5725 55.5691 20.8155 53.5305 23.7569H58.2116C59.9481 18.4021 63.7232 13.9524 69.7633 13.9524C78.0684 13.9524 82.5985 19.458 82.5985 27.8295V52.7932H71.8773V29.8658C71.8773 24.8881 69.5368 22.7764 65.8372 22.7764C58.3626 22.7764 58.2871 30.9217 58.2871 34.9189V52.7932H47.5659V15.0837Z" fill="black"/>
+                    <path d="M96.4906 42.9133V23.229H88.563V15.0837H96.4906V3.24292H107.212V15.0837H117.027V23.229H107.212V40.9524C107.212 43.215 108.193 44.2709 110.534 44.2709H118.688V52.7932H106.079C99.9637 52.7932 96.4906 48.796 96.4906 42.9133Z" fill="black"/>
+                    <path d="M122.689 33.9385C122.689 22.0223 129.032 13.9525 138.243 13.9525C146.019 13.9525 149.115 19.0056 150.776 22.852H155.306C153.418 19.9106 151.304 16.3659 151.304 7.39106V0H162.026V52.7933H152.286C152.286 50.1536 154.022 47.2877 155.532 45.1006H151.002C149.115 48.8715 146.246 54 138.243 54C129.032 54 122.689 45.8547 122.689 33.9385ZM151.751 33.9385C151.751 25.9441 148.127 22.0223 142.766 22.0223C137.783 22.0223 133.933 25.1145 133.933 33.9385C133.933 42.7626 137.783 45.8547 142.766 45.8547C148.052 45.8547 151.751 41.933 151.751 33.9385Z" fill="black"/>
+                    <path d="M169.954 33.863C169.954 22.0222 178.108 13.9524 189.055 13.9524C201.74 13.9524 208.384 23.9077 207.327 36.5027H180.675C180.977 43.1395 184.525 45.8546 189.131 45.8546C193.963 45.8546 196.304 42.8379 197.889 39.2932L207.478 42.9887C205.364 47.8155 200.607 53.9999 189.131 53.9999C177.504 53.9999 169.954 46.2317 169.954 33.863ZM196.75 28.9608C196.297 24.2848 193.579 21.6451 189.049 21.6451C184.746 21.6451 181.801 24.2094 181.046 28.9608H196.75Z" fill="black"/>
+                    <path d="M231.707 37.1816L226.195 42.4609V52.7933H215.474V0H226.195V16.6676C226.195 24.2095 224.157 27 220.759 29.7905L223.628 32.8827L241.371 15.0838H254.508L239.106 30.0168L257 52.7933H243.485L231.707 37.1816Z" fill="black"/>
+                </svg>
+            </div>
+        </div>
+        <ul class="header__days days-js">
+            <li class="days"><a><span class="day-of__week">Vr</span><span class="day-of__mounth">17 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Za</span><span class="day-of__mounth">18 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Zo</span><span class="day-of__mounth">19 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Ma</span><span class="day-of__mounth">20 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Di</span><span class="day-of__mounth">21 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Wo</span><span class="day-of__mounth">22 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Do</span><span class="day-of__mounth">23 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Di</span><span class="day-of__mounth">24 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Wo</span><span class="day-of__mounth">25 Juli</span></a></li>
+            <li class="days"><a><span class="day-of__week">Do</span><span class="day-of__mounth">26 Juli</span></a></li>
+        </ul>   
+        <div class="my-modal">
+            <div class="modal-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#"><svg width="19" height="18" viewBox="0 0 24 23" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.21101 17.3622C4.13262 17.3622 0 13.4682 0 8.68108C0 3.89391 4.13262 0 9.21101 0C14.2894 0 18.422 3.89486 18.422 8.68108C18.422 13.4673 14.2904 17.3622 9.21101 17.3622ZM9.21101 2.96457C5.86604 2.96457 3.14554 5.5295 3.14554 8.68108C3.14554 11.8327 5.86705 14.3976 9.21101 14.3976C12.555 14.3976 15.2775 11.8327 15.2775 8.68108C15.2775 5.5295 12.556 2.96457 9.21101 2.96457ZM18.5409 14.7763C17.718 15.8927 16.6755 16.8533 15.4729 17.6061L20.9642 22.7825L24 19.9223L18.5409 14.7763Z" fill="white"/>
+                        </svg>Zoeken</a></li>
+                    <li class="program"><button>Programma</button><svg class="less" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/></svg><svg class="more" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg> </button>
+                        <ul>
+                            <li  class="modal-days"><a>Programma</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Niuews</a></li>
+                    <li><a href="#">Info</a></li>
+                </ul>
+                <button class="close" >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 20.188L15.685 11.979L23.885 3.697L20.188 0L11.976 8.318L3.666 0.115L0 3.781L8.321 12.021L0.115 20.334L3.781 24L12.018 15.682L20.303 23.885L24 20.188Z" fill="white"/>
+                    </svg> 
+                </button>             
+            </div>
+        </div>
+    </header>
+    <article class="events container events__main-js">
+        <a  href="detail.html" class="events__link">
+            <div class="bg"> <span class="date">Wo 22 jul 14.00 u.</span></div>
+            <div class="events__content">
+                <h2>Tijd-e-lijk</h2>
+                <div class="place">Kring Heilig Hart</div>
+            </div>
+        </a>
+        <a href="detail.html" class="events__link">
+            <div class="bg"><span class="date">Wo 22 jul 14.00 u.</span></div>
+            <div class="events__content">
+                <h2>Promotie kruisboogsport</h2>
+                <div class="place">Sint-Rochus gilde</div>
+            </div>
+            
+        </a>
+        <a href="detail.html" class="events__link">
+            <div class="bg"><span class="date">Wo 22 jul 14.00 u.</span></div>
+            <div class="events__content">
+                <h2>Rondleiding Sint-Rochus gilde - geschiedenis van de kruisboog</h2>
+                <div class="place">S.M.A.K</div>
+            </div>
+        </a>
+    </article>
+    <article class="news container">
+        <div>
+            <div class=news__photo>
+                <img src="static/media/news1.jpg" alt="news-photo">
+                <span class="news__date">19/07</span>
+            </div>
+            <div class="news__content">
+                <h3>Prijs voor de strafste straatartiesten en muzikanten</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non luctus risus. Vestibulum interdum malesuada diam ut tristique. Nulla mollis ut massa sed laoreet. </p>
+                <a href="#">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.68333 0L6.78533 1.88533L10.9027 6.00267H0V8.664H10.9027L6.78533 12.7813L8.68333 14.6667L16 7.33333L8.68333 0Z" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class=news__photo>
+                <img src="static/media/news2.jpg" alt="news-photo">
+                <span class="news__date">20/07</span>
+            </div>
+            <div class="news__content">
+                <h3>Drie eeuwen grafische industrie</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non luctus risus. Vestibulum interdum malesuada diam ut tristique. Nulla mollis ut massa sed laoreet. </p>
+                <a href="#">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.68333 0L6.78533 1.88533L10.9027 6.00267H0V8.664H10.9027L6.78533 12.7813L8.68333 14.6667L16 7.33333L8.68333 0Z" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+            
+        </div>
+        <div>
+            <div class=news__photo>
+                <img src="static/media/news3.jpg" alt="news-photo">
+                <span class="news__date">21/07</span>
+            </div>
+            <div class="news__content">
+                <h3>Gratis muziek op zondag</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non luctus risus. Vestibulum interdum malesuada diam ut tristique. Nulla mollis ut massa sed laoreet. </p>
+                <a href="#">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.68333 0L6.78533 1.88533L10.9027 6.00267H0V8.664H10.9027L6.78533 12.7813L8.68333 14.6667L16 7.33333L8.68333 0Z" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <a class="news__btn">Bekijk alle nieuwsberichten</a>
+    </article>
+    <article class="slider">
+        <div class="slider__wrapper">
+            <img src="static/media/image-5.jpg " alt="image">
+            <div class="arrows">
+                <svg class="left" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.76672 0L12.3002 2.50664L6.80431 7.98082H21.3574V11.5192H6.80431L12.3002 16.9934L9.76672 19.5L0.000278473 9.75L9.76672 0Z" fill="black"/>
+                </svg>
+                <svg class="right" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.2333 0L9.69979 2.50664L15.1957 7.98082H0.642578V11.5192H15.1957L9.69979 16.9934L12.2333 19.5L21.9997 9.75L12.2333 0Z" fill="black"/>
+                </svg>
+                <span>1/10</span>
+                    
+            </div>
+        </div>
+    </article>
+    <article class="feest container">
+        <div>
+            <img src="static/media/feest.jpg">
+        </div>
+        <div class="beleef">
+            <svg class="feest__logo"  width="172" height="42" viewBox="0 0 172 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.55604 35.0446H5.03986C6.21192 36.7441 7.55978 38.971 7.55978 41.0221H0V0H8.32162V5.74309C8.32162 12.7168 6.56353 15.4712 5.09846 17.7567H8.61464C9.9039 14.768 12.4238 10.8416 18.4599 10.8416C25.6095 10.8416 30.5322 17.1121 30.5322 26.3713C30.5322 35.6306 25.6095 41.9597 18.4599 41.9597C12.248 41.9597 10.0211 37.9747 8.55604 35.0446ZM21.8003 26.3713C21.8003 19.5148 18.8116 17.1121 14.9438 17.1121C10.7829 17.1121 7.97001 20.1594 7.97001 26.3713C7.97001 32.5833 10.8416 35.6306 14.9438 35.6306C18.8116 35.6306 21.8003 33.2279 21.8003 26.3713Z" fill="black"/>
+                <path d="M34.8105 26.3127C34.8105 17.1121 41.1397 10.8416 49.6371 10.8416C59.4824 10.8416 64.6395 18.5771 63.819 28.3638H43.1322C43.3666 33.5209 46.1209 35.6306 49.6957 35.6306C53.4463 35.6306 55.263 33.2865 56.4937 30.5322L63.9362 33.4037C62.2953 37.1543 58.6034 41.9597 49.6957 41.9597C40.6708 41.9597 34.8105 35.9236 34.8105 26.3127ZM55.6146 22.5035C55.263 18.8702 53.1533 16.8191 49.6371 16.8191C46.2967 16.8191 44.0112 18.8116 43.4252 22.5035H55.6146Z" fill="black"/>
+                <path d="M70.1475 0H78.4691V41.0221H70.1475V0Z" fill="black"/>
+                <path d="M84.6228 26.3127C84.6228 17.1121 90.9519 10.8416 99.4494 10.8416C109.295 10.8416 114.452 18.5771 113.631 28.3638H92.9444C93.1788 33.5209 95.9332 35.6306 99.508 35.6306C103.259 35.6306 105.075 33.2865 106.306 30.5322L113.748 33.4037C112.108 37.1543 108.416 41.9597 99.508 41.9597C90.4831 41.9597 84.6228 35.9236 84.6228 26.3127ZM105.427 22.5035C105.075 18.8702 102.966 16.8191 99.4494 16.8191C96.109 16.8191 93.8235 18.8116 93.2374 22.5035H105.427Z" fill="black"/>
+                <path d="M118.026 26.3127C118.026 17.1121 124.355 10.8416 132.852 10.8416C142.698 10.8416 147.855 18.5771 147.034 28.3638H126.348C126.582 33.5209 129.336 35.6306 132.911 35.6306C136.662 35.6306 138.478 33.2865 139.709 30.5322L147.152 33.4037C145.511 37.1543 141.819 41.9597 132.911 41.9597C123.886 41.9597 118.026 35.9236 118.026 26.3127ZM138.83 22.5035C138.478 18.8702 136.369 16.8191 132.852 16.8191C129.512 16.8191 127.227 18.8116 126.641 22.5035H138.83Z" fill="black"/>
+                <path d="M155.65 18.0497H149.965V11.7206H155.65V7.67699C155.65 3.10596 158.228 0 162.975 0H172V6.62214H166.55C164.733 6.62214 163.971 7.44258 163.971 9.20067V11.7206H170.769V18.0497H163.971V41.0221H155.65V18.0497Z" fill="black"/>
+            </svg>
+            <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.7107 6.47966C28.7311 6.76403 28.7311 7.04845 28.7311 7.33281C28.7311 16.0062 22.1321 26 10.0711 26C6.35534 26 2.90357 24.9234 0 23.0547C0.52794 23.1156 1.0355 23.1359 1.58376 23.1359C4.64971 23.1359 7.47209 22.1 9.72591 20.3328C6.84265 20.2719 4.42639 18.3828 3.59389 15.7828C4.00002 15.8437 4.40608 15.8843 4.83252 15.8843C5.42133 15.8843 6.01021 15.8031 6.5584 15.6609C3.55333 15.0515 1.29944 12.4109 1.29944 9.22186V9.14064C2.17251 9.62815 3.18783 9.93283 4.26389 9.97341C2.49738 8.79526 1.34007 6.78435 1.34007 4.50933C1.34007 3.2906 1.66488 2.17341 2.23345 1.19841C5.4619 5.17965 10.3147 7.77961 15.7563 8.06403C15.6548 7.57653 15.5939 7.06877 15.5939 6.56095C15.5939 2.94528 18.5178 0 22.1523 0C24.0406 0 25.7462 0.792185 26.9442 2.07187C28.4264 1.78751 29.8477 1.23905 31.1066 0.487504C30.6192 2.01098 29.5837 3.29066 28.2234 4.10311C29.5432 3.96099 30.8224 3.59528 32 3.08752C31.1067 4.38747 29.9899 5.54524 28.7107 6.47966Z" fill="black"/>
+            </svg>
+            <div class="feest_change">
+                <h2> Volg @gentsefeesten </h2>
+                <div class="elipse">
+                    <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="5" cy="5" r="5" fill="#000000"/>
+                    </svg>
+                    <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="5" cy="5" r="5" fill="#E6E6E6"/>
+                    </svg>
+                    <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="5" cy="5" r="5" fill="#E6E6E6"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="feest__text">
+                <span>Perdona loro Nesli</span>
+                <a href="https://twitter.com/search?q=%23GF20">#GF20</a>
+            </div>
+            <div class="fest__text-person">
+                <p><span class="bold">@lina7619</span>23 uur 51 min geleden</p>
+            </div>
+            <div class=" elipse elipse__floor">
+                <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5" cy="5" r="5" fill="#000000"/>
+                </svg>
+                <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5" cy="5" r="5" fill="#E6E6E6"/>
+                </svg>
+                <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5" cy="5" r="5" fill="#E6E6E6"/>
+                </svg>
+            </div> 
+        </div>
+    </article>
+    <article class="form container">
+        <h2>
+            Blijf op de hoogte
+        </h2>
+        <p>Abonneer je op de nieuwsbrief van de Gentse Feesten</p>
+        <p>De stad Gent zal de persoonsgegevens die u invult met respect voor uw <a href="#">privacy</a> behandelen.</p>
+        <form>
+            <label for="email">E-mailadres
+            </label>
+            <div class="input__wrapper">
+                <input class="area" type="email" id="email" name="email" maxlength="100"required> 
+                <input class="btn" type="submit" value="Inschrijven">
+            </div>
+        </form>
+    </article>
+    <footer>
+        <div class="foter__top">
+            <div class="container">
+                <div class="footer__logo">
+                    <a href="index.html"><img src="static/media/logoGFooter.svg" alt="logo"></a>
+                </div>
+                <p>Volg de Gentse Feesten op alle sociale media kanalen</p>
+            </div>
+            <div class="social container">
+                <ul class="social-list">
+                    <li><a href="https://www.twitter.com/GFGent"><svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="21.5" cy="21.5" r="21.5" fill="#ffffff"/>
+                        <g clip-path="url(#clip0)">
+                        <path d="M31.2595 16.4965C31.2751 16.7147 31.2751 16.933 31.2751 17.1513C31.2751 23.8086 26.2081 31.4794 16.947 31.4794C14.0938 31.4794 11.4434 30.6531 9.21387 29.2187C9.61925 29.2655 10.009 29.2811 10.43 29.2811C12.7842 29.2811 14.9513 28.486 16.682 27.1296C14.468 27.0828 12.6127 25.6328 11.9734 23.6371C12.2853 23.6839 12.5971 23.7151 12.9245 23.7151C13.3767 23.7151 13.8288 23.6527 14.2498 23.5436C11.9423 23.0758 10.2116 21.049 10.2116 18.6012V18.5389C10.882 18.9131 11.6617 19.147 12.4879 19.1781C11.1315 18.2738 10.2428 16.7303 10.2428 14.9841C10.2428 14.0487 10.4923 13.1912 10.9288 12.4428C13.4078 15.4986 17.1341 17.4942 21.3124 17.7126C21.2345 17.3384 21.1877 16.9486 21.1877 16.5588C21.1877 13.7836 23.4328 11.5229 26.2236 11.5229C27.6735 11.5229 28.9832 12.131 29.9031 13.1132C31.0412 12.895 32.1325 12.474 33.0992 11.8971C32.725 13.0665 31.9299 14.0487 30.8853 14.6723C31.8987 14.5632 32.881 14.2825 33.7852 13.8928C33.0993 14.8906 32.2418 15.7792 31.2595 16.4965Z" fill="black"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="24.5714" height="24.5714" fill="white" transform="translate(9.21387 9.21436)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                         </a>
+                    </li>
+                    <li><a href="https://www.facebook.com/gentsefeesten"><svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="21.8574" cy="21.5" r="21.5" fill="#ffffff"/>
+                        <g clip-path="url(#clip0)">
+                        <path d="M27.5749 23.0358L28.2574 18.5889H23.9905V15.7032C23.9905 14.4867 24.5865 13.3008 26.4975 13.3008H28.4373V9.51478C28.4373 9.51478 26.677 9.21436 24.994 9.21436C21.4801 9.21436 19.1832 11.3442 19.1832 15.1998V18.5889H15.2772V23.0358H19.1832V33.7858H23.9905V23.0358H27.5749Z" fill="black"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="15.3571" height="24.5714" fill="white" transform="translate(14.1787 9.21436)"/>
+                        </clipPath>
+                        </defs>
+                        </svg></a>
+                    </li>
+                    <li><a href="https://www.flickr.com/photos/stadgent"><svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="22.4463" cy="21.5" r="21.5" fill="#ffffff"/>
+                        <circle cx="16.3034" cy="21.5017" r="4.60714" fill="black"/>
+                        <circle cx="27.821" cy="21.5017" r="4.60714" fill="black"/>
+                        </svg>
+                        </a>
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UCUn5Z0JK-sEbql4cVNdaH-Q"><svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="21.8037" cy="21.5" r="21.5" fill="#ffffff"/>
+                        <g clip-path="url(#clip0)">
+                        <path d="M33.0011 15.9605C32.7415 14.9674 31.9767 14.1853 31.0057 13.9198C29.2456 13.4375 22.188 13.4375 22.188 13.4375C22.188 13.4375 15.1304 13.4375 13.3703 13.9198C12.3993 14.1853 11.6345 14.9674 11.3749 15.9605C10.9033 17.7606 10.9033 21.5163 10.9033 21.5163C10.9033 21.5163 10.9033 25.272 11.3749 27.0721C11.6345 28.0652 12.3993 28.8147 13.3703 29.0802C15.1304 29.5625 22.188 29.5625 22.188 29.5625C22.188 29.5625 29.2456 29.5625 31.0057 29.0802C31.9767 28.8147 32.7415 28.0652 33.0011 27.0721C33.4727 25.272 33.4727 21.5163 33.4727 21.5163C33.4727 21.5163 33.4727 17.7606 33.0011 15.9605ZM19.8797 24.9262V18.1064L25.7785 21.5164L19.8797 24.9262Z" fill="black"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="23.8036" height="21.5" fill="white" transform="translate(10.2861 10.75)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom container">
+            <a class="gent" href="https://stad.gent/"><img src="static/media/gent.svg" alt="logo-gent"></a>
+            <div>
+                <p>
+                    <strong>Deze website is louter informatief en geldt niet als aanbod</strong>,mogelijke fouten op de website zijn niet de aansprakelijkheid van de Stad Gent.
+                </p>
+            </div>
+            <div><a class="cookies">Cookie instellingen</a></div>
+        </div>
+    </footer>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
